@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.Fragment3"
+    android:orientation="vertical"
+    android:background="#FF9800">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is Fragment 3"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        android:textStyle="bold"/>
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous"
+        android:id="@+id/btn_previous2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/rounded_button"
+        >
+
+    </Button>
+</LinearLayout>
